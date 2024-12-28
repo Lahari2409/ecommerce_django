@@ -1,0 +1,131 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - E-commerce Website</title>
+  <link rel="stylesheet" href="{% static 'store/css/index_about_styles.css' %}">
+  <style>
+    .navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#333;
+  padding:15px 20px;
+  color:white;
+}
+.logo img{
+  height:40px;
+  width:auto;
+}
+.nav-links a{
+  color:white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight:bold;
+}
+.nav-links a:hover{
+  color:#ddd;
+}
+.footer{
+  background-color:#333;
+  color:white;
+  padding:20px;
+  text-align: center;
+  font-size:14px;
+  margin-top:40px;
+}
+.footer-content{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin-bottom:10px;
+}
+.footer-content a{
+  color:#ddd;
+  text-decoration: none;
+  font-weight:bold;
+}
+.footer-content a:hover{
+  color:#fff;
+}
+  </style>
+</head>
+<body>
+ 
+    <header class="navbar">
+        <div class="logo">
+          <img src="https://shorturl.at/zYCfR"alt="e-com">
+        </div>
+        <nav class="nav-links">
+          <a href="">landing page</a>
+          <a href="/about">about</a>
+          <a href="/womens">men</a>
+          <a href="/mens">women</a>
+          <a href="/billing">billing page</a>
+          <a href="/cart">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+      </header>
+      
+          
+      
+      
+      <section class="section" id="our-story">
+          <div class="container">
+              <h2>Our Story</h2>
+              <p>Our journey began in 2016 with a simple idea: to bring high-quality, eco-friendly products to homes everywhere. Our commitment to sustainability, community support, and quality has remained at the heart of our brand.</p>
+          </div>
+      </section>
+      
+      <section class="section" id="our-values">
+          <div class="container">
+              <h2>Our Values</h2>
+              <p>Unlike other stores, we source every product locally, ensuring fair wages and top quality. Our commitment to sustainability has earned us the [Award/Recognition] from [Organization].</p>
+          </div>
+      </section>
+      
+      <section class="section" id="mission-vision">
+          <div class="container">
+              <h2>Our Mission & Vision</h2>
+              <p>Our mission is to make sustainable shopping easy and accessible, empowering customers to make eco-conscious choices with every purchase. We envision a future where ethical shopping becomes the norm.</p>
+          </div>
+      </section>
+      
+      <section class="section" id="team">
+          <div class="container">
+              <h2>Meet the Team</h2>
+              <div class="team">
+                  <div class="team-member">
+                      <img src="https://shorturl.at/Bb8FS" alt="Founder">
+                      <h3>Rejina</h3>
+                      <p>Founder & CEO</p>
+                  </div>
+                  <div class="team-member">
+                      <img src="https://shorturl.at/niEYQ" alt="Designer">
+                      <h3>Robout Rahul</h3>
+                      <p>Lead Designer</p>
+                  </div>
+                  <!-- Add more team members as needed -->
+              </div>
+          </div>
+      </section>
+      
+      <section class="section" id="testimonials">
+          <div class="container">
+              <h2>What Our Customers Say</h2>
+              <blockquote>“I love how transparent and eco-friendly this brand is!” - Happy Customer</blockquote>
+              <blockquote>“Exceptional quality and great service. Highly recommend!” - Satisfied Shopper</blockquote>
+          </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-content">
+          <a href="contact.html">contact-us</a>
+          <a href="privacy.html">privacy policy</a>
+          <a href="terms.html">terms of service</a>
+        </div>
+        <p>&copy; 2024 company name.all rights reserved</p>
+      </footer>
+     
+  </body>
+  </html>
